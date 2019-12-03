@@ -3,7 +3,7 @@
 This repo is just for tests.
 
 ## INSTALLATION
-`composer require yiannis/dokimes:dev-master`
+`composer require yiannis/dokimes`
 
 ## HOW TO USE
 ```php
