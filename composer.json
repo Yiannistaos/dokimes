@@ -1,5 +1,6 @@
 {
     "name": "yiannis/dokimes",
+    "version": "1.0.0",
     "type": "library",
     "description": "My test composer project",
     "keywords": ["yiannis", "dokimes"],
@@ -10,8 +11,6 @@
         }
     ],
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
         "psr-0": {
             "Dokimes": "src/"
