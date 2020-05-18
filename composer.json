@@ -11,11 +11,23 @@
         }
     ],
     "license": "MIT",
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "autoload": {
-        "psr-0": {
+        "psr-4": {
             "Dokimes": "src/"
         }
-    }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dokimes": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+              "Dokimes\\Yiannis\\TestServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
