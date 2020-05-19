@@ -1,6 +1,6 @@
 <?php
 
-namespace Dokimes\Yiannis;
+namespace Yiannis\Dokimes;
 
 use Illuminate\Support\ServiceProvider;
 //Use Illuminate\Support\Facades\Route;

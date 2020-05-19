@@ -1,6 +1,5 @@
 <?php
-// v1.0.1
-namespace Dokimes;
+namespace Yianni\Dokimes;
 class SayHello
 {
     public static function world()

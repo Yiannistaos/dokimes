@@ -2,6 +2,7 @@
     "name": "yiannis/dokimes",
     "description": "My laravel test composer project",
     "keywords": ["yiannis", "dokimes"],
+    "type": "project",
     "authors": [
         {
             "name": "Yiannis Christodoulou",
@@ -19,18 +20,18 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Dokimes\\Yiannis\\": "src/"
+            "Yiannis\\Dokimes\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dokimes\\Yiannis\\": "tests/"
+            "Yiannis\\Dokimes\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-              "Dokimes\\Yiannis\\TestServiceProvider"
+              "Yiannis\\Dokimes\\TestServiceProvider"
             ]
         }
     },
