@@ -14,8 +14,7 @@
         "issues": "https://github.com/Yiannistaos/dokimes/issues"
     },
     "require": {
-        "php": "^7.2",
-        "another-vendor/package": "1.*"
+        "php": "^7.2"
     },
     "license": "MIT",
     "autoload": {
