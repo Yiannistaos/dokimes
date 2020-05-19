@@ -6,18 +6,23 @@
     "authors": [
         {
             "name": "Yiannis Christodoulou",
-            "email": "yiannis@web357.com"
+            "email": "yiannis@web357.com",
+            "homepage": "http://www.yiannistaos.com/",
+            "role": "Project Author"
         }
     ],
+    "support": {
+        "issues": "https://github.com/Yiannistaos/dokimes/issues"
+    },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Dokimes": "src/"
+            "Dokimes\\Yiannis\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Dokimes": "tests/"
+            "Dokimes\\Yiannis\\": "tests/"
         }
     },
     "extra": {

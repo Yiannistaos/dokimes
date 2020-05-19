@@ -7,7 +7,7 @@ This repo is just for my laravel tests.
 `composer require yiannis/dokimes`
 
 ### STEP 2
-Edit config\app.php and add the below line in the providers.
+Add the following to app/config/app.php
 
 ```
 'providers' => [
