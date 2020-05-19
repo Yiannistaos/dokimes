@@ -1,8 +1,7 @@
 {
     "name": "yiannis/dokimes",
-    "version": "1.0.0",
-    "type": "library",
-    "description": "My test composer project",
+    "version": "1.0.1",
+    "description": "My laravel test composer project",
     "keywords": ["yiannis", "dokimes"],
     "authors": [
         {
