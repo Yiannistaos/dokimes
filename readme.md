@@ -12,18 +12,28 @@ Add the following to app/config/app.php
 ```
 'providers' => [
     ...
-    Dokimes\Yiannis\TestServiceProvider::class,  
+    Yiannis\Dokimes\TestServiceProvider::class,  
+    ...
+]
+```
+
+and
+
+```
+'aliases' => [
+    ...
+    'SayHello' => Yiannis\Dokimes\SayHello::class,
     ...
 ]
 ```
 
 ### STEP 3
-`php artisan vendor:publish --provider="Dokimes\Yiannis\TestServiceProvider"`
+`php artisan vendor:publish --provider="Yiannis\Dokimes\TestServiceProvider"`
 
 ## HOW TO USE
 ```php
 @php
-    Dokimes\SayHello::world()
+    SayHello::world()
 @endphp
 ```
 
