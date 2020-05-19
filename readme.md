@@ -4,7 +4,7 @@ This repo is just for my laravel tests.
 
 # INSTALLATION
 ### STEP 1
-`composer require yiannis/dokimes`
+`composer require yiannis/dokimes --prefer-stable`
 
 ### STEP 2
 Add the following to app/config/app.php
