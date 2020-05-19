@@ -21,7 +21,7 @@ class TestServiceProvider extends ServiceProvider
 
        // if ($this->app->runningInConsole()) {
             $this->publishes([
-                __DIR__.'/resources' => $this->app->resourcePath('views/yiannaros2'),
+                __DIR__.'/resources' => $this->app->resourcePath('views/dokimes'),
             ], 'yiannistaos');
      //   }
 
