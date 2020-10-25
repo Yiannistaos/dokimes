@@ -33,7 +33,7 @@ and
 ## HOW TO USE
 ```php
 @php
-    SayHello::world()
+    echo SayHello::world()
 @endphp
 ```
 
